@@ -8,7 +8,7 @@ STM32-based robotic arm controller PCB designed in Altium Designer.
 
 ## Description
 Conception d’une carte PCB de commande pour bras robotique réalisée sous Altium Designer.  
-La carte est basée sur un microcontrôleur STM32F103 et permet le pilotage de plusieurs actionneurs et interfaces de communication.
+La carte est basée sur un microcontrôleur STM32F103 et permet le pilotage de moteurs pas à pas, servomoteurs et interfaces de communication.
 
 ---
 
@@ -21,13 +21,28 @@ La carte est organisée en plusieurs blocs fonctionnels :
 - Gestion du contrôle global du système  
 - Interfaces de communication : UART, I2C, SPI  
 
+---
+
 ### Drivers moteurs pas à pas
 - Emplacement pour drivers type A4988 / DRV8825  
-- Contrôle des moteurs pas à pas du bras robotique  
+- Tension moteur : 8V à 35V (selon driver utilisé)  
+- Courant moteur : jusqu’à 2A par phase (avec refroidissement adapté)  
+- Contrôle des moteurs pas à pas du bras robotique (type NEMA 17)
+
+---
 
 ### Servomoteurs
-- Zone dédiée avec connecteur 18 pins  
-- Support jusqu’à 6 servomoteurs  
+- Connecteur dédié 6 canaux  
+- Tension d’alimentation : 5V à 6V  
+- Courant typique : 500 mA à 2.5 A par servo 
+- Support de servomoteurs couple élevé type MG995
+
+---
+
+### Alimentation
+- Alimentation logique : 3.3V (STM32F103)  
+- Alimentation puissance séparée pour moteurs et servos  
+- Distribution de puissance optimisée pour éviter les chutes de tension  
 
 ---
 
