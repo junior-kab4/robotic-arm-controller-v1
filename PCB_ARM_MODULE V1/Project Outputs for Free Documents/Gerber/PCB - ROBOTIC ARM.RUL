@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\Altuim_Project\test_lib\PCB_ARM_MODULE V1\PCB_ARM_MODULE\PCB - ROBOTIC ARM.PcbDoc
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=19.69
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB - ROBOTIC ARM.PcbDoc   01/05/2026  4:36:12 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB - ROBOTIC ARM.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      26mil (0.65mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T2      28mil (0.7mm)                                             Round             8         PTH        0.00inch (0.00mm)
+T3      30mil (0.762mm)                                           Round             32        PTH        0.00inch (0.00mm)
+T4      35mil (0.9mm)                                             Round             99        PTH        0.00inch (0.00mm)
+T5      40mil (1.02mm)                                            Round             34        PTH        0.00inch (0.00mm)
+T6      41mil (1.05mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T7      59mil (1.5mm)                                             Round             3         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              180
+
+Total Processing Time (hh:mm:ss) : 00:00:00
