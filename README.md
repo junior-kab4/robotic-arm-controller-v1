@@ -67,10 +67,10 @@ La carte est organisée en plusieurs blocs fonctionnels :
 ![Schematic](Images/schematic.png)
 
 ### PCB 2D
-![PCB 2D](Images/pcb-top.png)
+![PCB 2D](Images/PCB 2D.png)
 
 ### PCB 3D
-![PCB 3D](Images/pcb-3d.png)
+![PCB 3D](Images/PCB 3D.png)
 
 ---
 
